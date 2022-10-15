@@ -1,0 +1,21 @@
+python grok demo
+https://stackoverflow.com/questions/23078712/is-there-any-python-implementation-of-logstashs-grok-functionality
+Dissect 和 Grok
+https://juejin.cn/post/7003201867144495135
+python Dissect
+https://stackoverflow.com/questions/36035931/python-string-dissection
+
+正则模型
+正则在线测试网站
+https://regex101.com/r/1paXsy/693
+https://blog.robertelder.org/regular-expression-visualizer/
+https://jex.im/regulex/#!flags=&re=%5E(a%7Cb)*%3F%24
+python 捕获组
+https://blog.csdn.net/Winterto1990/article/details/47417025
+python match search区别
+https://cloud.tencent.com/developer/article/1739969
+正则速查表
+https://github.com/cdoco/learn-regex-zh/blob/master/README.md
+
+
+
