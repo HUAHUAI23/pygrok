@@ -86,7 +86,8 @@ class Grok(object):
                 # 采用懒模式，大多数时候是 %{pattern_name:custom_name}这种形式，所以采用懒模式
                 r'%{(\w+):(\w+)(?::\w+)?}',
                 lambda m: "(?P<" + m.group(2) + ">" + self.predefined_patterns[
-                    m.group(1)].regex_str + ")", py_regex_pattern)
+                    m.group(1)].regex_str + ")",
+                py_regex_pattern)
 
             py_regex_pattern = re.sub(
                 r'%{(\w+)}', lambda m: "(" + self.predefined_patterns[m.group(
@@ -96,8 +97,6 @@ class Grok(object):
                 break
 
         self.regex_obj = re.compile(py_regex_pattern)
-
-
 
 
 def _wrap_pattern_name(pat_name):
