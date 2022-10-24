@@ -1,6 +1,5 @@
 import regex as re
 # NOTE re can't handle redefinition of group name
-
 types = {
     'WORD': r'\w+',
     'NUMBER': r'\d+',
